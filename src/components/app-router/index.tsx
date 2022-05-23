@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "../../pages/dashboard";
 import Login from "../../pages/login";
 
-const Layout = () => {
+const AppRouter = () => {
   return (
     <>
       <BrowserRouter>
@@ -17,4 +17,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default AppRouter;

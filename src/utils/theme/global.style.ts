@@ -9,10 +9,13 @@ const GlobalStyle = createGlobalStyle`
 		box-sizing:border-box;
 	}
 
+	html{
+		font-size: 62.5%;
+	}
+
 	body{
 		padding:0;
 		margin:0;
-		font-size: 62.5%;
 		font-family:${theme.font.main};
 		background:${theme.palette.dark};
 	}
