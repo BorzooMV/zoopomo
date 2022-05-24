@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Root = styled.div`
-  position: absolute;
+  position: relative;
   background: ${(props) => props.theme.palette.light};
   width: 100%;
   padding: 10px 88px;
@@ -9,6 +9,7 @@ export const Root = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 45px;
 `;
 
 export const LogoAndTagline = styled.div`
